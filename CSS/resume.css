@@ -1,0 +1,45 @@
+/* Header styling */
+
+header {
+    text-align: center;
+}
+
+header p {
+    line-height: 2px;
+}
+
+/* Body styling */
+
+p {
+    margin-left: 15px;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+}
+
+th {
+    text-align: left;
+    background-color: lightgrey;
+}
+
+td,
+th {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+}
+
+/* Footer styling */
+
+footer {
+    margin-top: 25px;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="CSS/form.css">
+        <title>Tell Us More</title>
+
+    </head>
+
+    <body>
+
+        <form>
+
+            <div class="width">
+
+                <h1>Tell Us More</h1>
+
+                <fieldset>
+
+                    <label for="fname">First name:</label> <br>
+                    <input type="text" id="fname" name="first_name"> <br>
+
+                    <label for="lname">Last name:</label> <br>
+                    <input type="text" id="lname" name="last_name"> <br>
+
+                    <label for="phone">Contact phone number:</label> <br>
+                    <input type="text" id="phone" name="phone_number"> <br>
+
+                    <label>Phone number type:</label> <br>
+                    <input type="radio" id="landline" value="landine" name="number_type"><label for="landline">Landline</label> <br>
+                    <input type="radio" id="mobile" value="mobile" name="number_type"><label for="mobile">Mobile</label> <br>
+
+                    <label for="email">Contact email:</label> <br>
+                    <input type="text"id="email" name="contact_email"> <br>
+
+                </fieldset>
+
+                <fieldset>
+
+                    <label for="about">How did you here about us:</label> <br>
+                    <select id="about" name="about_us">
+                        <option value="search_engine">Search Engine</option>
+                        <option value="social_media">Social Media</option>
+                        <option value="recruiter">Recruiter</option>
+                    </select> <br>
+
+                    <hr>
+
+                    <label>Interest for contacting:</label> <br>
+                    <input type="checkbox" id="frontend" value="fronntend_dev" name="interest"><label for="frontend">Frontend Development</label> <br>
+                    <input type="checkbox" id="backend" value="backend_dev" name="interest"><label for="backend">Backend Development</label> <br>
+
+                </fieldset>
+
+                <fieldset>
+
+                    <textarea id="message" name="message">Messaage:</textarea> <br>
+
+                </fieldset>
+
+                <button type="reset">Clear Form</button> <br>
+
+            </div>        
+
+        </form>
+
+    </body>
+
+</html>
